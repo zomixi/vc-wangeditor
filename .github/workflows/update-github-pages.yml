@@ -1,0 +1,23 @@
+# This workflow will update github pages when a release is created
+
+name: update-github-pages
+
+on:
+  workflow_dispatch:
+  release:
+    types: [created]
+
+jobs:
+  update-github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: yarn install
+      - run: npm run build:docs
+      - run: git add -A docs
+      - run: git commit -m "chore: update docs" --no-verify
+      - run: git push
+
