@@ -17,7 +17,8 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name index --dest lib src/index.vue",
+    "build:lib": "vue-cli-service build --target lib --name index --dest lib src/index.vue",
+    "build:docs": "vue-cli-service build --dest docs",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
