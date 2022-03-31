@@ -24,8 +24,10 @@ jobs:
 
       - name: commit 🖊️
         run: |
+          git config --global user.email "zomixi@qq.com"
+          git config --global user.name "zomixi"
           git add -A docs
-          git commit -m 'chore: update docs' --no-verify
+          git commit -m "chore: update docs" --no-verify
 
       - name: push 🚀
         run: git push
