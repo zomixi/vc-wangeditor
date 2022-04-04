@@ -29,7 +29,7 @@
     "build:lib": "vue-cli-service build --target lib --name index --dest lib src/index.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "version:patch": "npm version patch -m \"chore: v%s\""
+    "version:patch": "npm version patch -m \"chore: v%s\" && git push && git push --tags"
   },
   "dependencies": {
     "core-js": "^3.8.3",
