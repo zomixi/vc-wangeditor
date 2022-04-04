@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "zomixi",
   "license": "MIT",
-  "description": "A vue component based on wangeditor.",
+  "description": "A vue2 component based on wangeditor4.",
   "keywords": [
     "vue",
     "vue2",
@@ -15,12 +15,24 @@
   "files": [
     "lib"
   ],
+  "homepage": "https://vc-wangeditor.vercel.app/",
+  "bugs": {
+    "url": "https://github.com/zomixi/vc-wangeditor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zomixi/vc-wangeditor"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name index --dest lib src/index.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "wangeditor": "^4.7.12"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -35,7 +47,6 @@
     "@vue/test-utils": "^1.1.3",
     "@vue/vue2-jest": "^27.0.0-alpha.2",
     "babel-jest": "^27.0.6",
-    "core-js": "^3.8.3",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -44,8 +55,7 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
     "vue": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
-    "wangeditor": "^4.7.12"
+    "vue-template-compiler": "^2.6.14"
   },
   "peerDependencies": {
     "vue": "^2.6.14"
