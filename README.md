@@ -1,4 +1,4 @@
-# vue2-wangeditor
+# vc-wangeditor
 
 ## ✨ Features
 
@@ -16,11 +16,11 @@
 ## 📦 Install
 
 ```bash
-npm install vue2-wangeditor
+npm install vc-wangeditor
 ```
 
 ```bash
-yarn add vue2-wangeditor
+yarn add vc-wangeditor
 ```
 
 ## 🔨 Usage
@@ -29,7 +29,7 @@ yarn add vue2-wangeditor
 <Vue2WangEditor v-model="content" />
 ```
 ```javascript
-import Vue2WangEditor from "vue2-wangeditor";
+import Vue2WangEditor from "vc-wangeditor";
 
 export default {
   components: {
@@ -51,7 +51,7 @@ export default {
 | disabled | disable the input | boolean | false |
 | placeholder | placeholder | string |  |
 
-> [📖 more Property](https://github.com/zomixi/vue2-wangeditor/blob/master/src/index.vue)
+> [📖 more Property](https://github.com/zomixi/vc-wangeditor/blob/master/src/index.vue)
 
 ## 📙 events
 
@@ -69,13 +69,13 @@ export default {
 
 Use Gitpod, a free online dev environment for GitHub.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/zomixi/vue2-wangeditor.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/zomixi/vc-wangeditor.git)
 
 Or clone locally:
 
 ```bash
-$ git clone https://github.com/zomixi/vue2-wangeditor.git
-$ cd vue2-wangeditor
+$ git clone https://github.com/zomixi/vc-wangeditor.git
+$ cd vc-wangeditor
 $ yarn install
 $ yarn serve
 ```

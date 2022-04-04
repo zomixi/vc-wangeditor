@@ -1,6 +1,6 @@
 {
-  "name": "vue2-wangeditor",
-  "version": "1.0.3",
+  "name": "vc-wangeditor",
+  "version": "1.0.0",
   "author": "zomixi",
   "license": "MIT",
   "description": "A vue component based on wangeditor.",
@@ -46,6 +46,9 @@
     "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "wangeditor": "^4.7.12"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.14"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
