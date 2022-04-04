@@ -1,6 +1,6 @@
 {
   "name": "vc-wangeditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "zomixi",
   "license": "MIT",
   "description": "A vue2 component based on wangeditor4.",
